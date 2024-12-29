@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pizzaria PHP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="application-name" content="" />        
+        <meta name="description" content="" />
+        <meta name="keywords" content="" /> 
+        <link rel="stylesheet" href="http://aplicacao.space/teste/pizzaria/assets/vendor/bootstrap/3.3.5/css/bootstrap.css"/>
+        <link rel="stylesheet" href="http://aplicacao.space/teste/pizzaria/assets/vendor/fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>        
+        <![endif]-->
+        <!--[if lt IE 9]>
+                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="http://aplicacao.space/teste/pizzaria/assets/vendor/jquery.gritter/css/jquery.gritter.css" />
+        <link rel="stylesheet" href="http://aplicacao.space/teste/pizzaria/assets/css/style.css"/>       
+    </head>
+    <body>
+        <div class="topo" id="topo">
+    <div class="container">
+        <div class="row">
+            <p class="text-white">
+                <br class="hidden-xs">
+                <span class="pull-right">
+                    <i class="fa fa-phone"></i>
+                    (11) 0000-0000 &nbsp;
+                    (11) 0000-0000 &nbsp;
+                </span>
+            </p>            
+            <div class="col-md-3 col-sm-3 col-xs-5">
+                <a href="http://aplicacao.space/teste/pizzaria/">
+                    <img src="http://aplicacao.space/teste/pizzaria/midias/logo/logo-png_1508249640.png" class="img-responsive margin-full-20" alt="logo"/>
+                </a>
+            </div>
+            <div class="col-md-9 col-sm-9 col-xs-4 pull-right hidden-xs">
+                <div class="row">
+    <div class="col-md-2 col-sm-2 text-center hidden-xs margin-full-30">
+        <a class="text-white" href="http://aplicacao.space/teste/pizzaria/">
+            <i class="fa fa-home fa-3x"></i><br/>                        
+            Home
+        </a>
+    </div>
+        <div class="col-md-2 col-sm-2 text-center hidden-xs margin-full-30">
+        <a class="text-white" href="http://aplicacao.space/teste/pizzaria/sobre/">
+            <i class="fa fa-get-pocket fa-3x"></i><br/>
+            Sobre 
+        </a>  
+    </div>     
+            <div class="col-md-2 col-sm-2 text-center hidden-xs margin-full-30">
+            <a class="text-white" href="http://aplicacao.space/teste/pizzaria/cadastro/">
+                <i class="fa fa-user fa-3x"></i><br/>
+                Cadastro
+            </a>        
+        </div>                          
+        <div class="col-md-2 col-sm-2 hidden-xs pull-right margin-full-30">
+                    <a  class="text-white" href="http://aplicacao.space/teste/pizzaria/entrar/">
+                <i class="fa fa-sign-in fa-3x"></i><br/> 
+                <span class="topsmall">Entrar</span>
+            </a>                           
+
+            </div>   
+</div>            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7 visible-xs">
+                <div class="navbar navbar-inverse" style="background-color: #bc2026; border-color: #bc2026;padding-top: 20px;">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle text-white menu-canvas" style="" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas"><i class="fa fa-shopping-cart fa-2x text-white"></i> <span id="cart-count"></span></button>        
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="fa fa-bars fa-2x text-white"></span>
+        </button>
+    </div>
+</div>
+
+            </div>
+            <div class="col-md-12 col-xs-12 visible-xs">
+                <div class="visible-xs menu-houve col-xs-12 col-md-12 col-sm-12">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav" id="menu-top">
+            <li class="dropdown">
+                <a class="text-white text-uppercase" href="http://aplicacao.space/teste/pizzaria/">
+                    <i class="fa fa-home"></i>
+                    Home
+                </a>                          
+            </li>
+            
+            <li class="dropdown">
+                <a class="text-white text-uppercase" href="http://aplicacao.space/teste/pizzaria/sobre/">
+                    <i class="fa fa-get-pocket"></i>
+                    Sobre 
+                </a>                          
+            </li>
+            <li class="dropdown">
+                <a class="text-white text-uppercase" href="http://aplicacao.space/teste/pizzaria/cadastro/">
+                    <i class="fa fa-user"></i>
+                    Cadastro 
+                </a>                          
+            </li>
+            <li role="separator" class="divider"></li>
+
+                        
+                <li class="dropdown">
+                    <a  class="text-white text-uppercase" href="http://aplicacao.space/teste/pizzaria/entrar/">
+                        <i class="fa fa-sign-in"></i>
+                        Entrar 
+                    </a>                           
+                </li>
+                        
+        </ul>
+    </div>
+</div>                            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="container">
+            &nbsp;
+            <span class="text-white">Pizzaria PHP </span>
+            &nbsp;
+                    </div>
+    </div>
+</div>
+        <br/>
+        <div class="container">
+            <div class="col-md-12">
+                <div class="content">
+                    <form action="http://aplicacao.space/teste/pizzaria/meu-cadastro-salvar/" method="post" role="form" 
+                          id="form-cadastro" autocomplete="off" enctype="multipart/form-data"> 
+                        <br/>
+                        <h4 class="text-uppercase">Dados Pessoais</h4>
+                        <hr />
+                        <div class="form-group">
+                            <label for="cliente_nome">Nome completo</label> 
+                            <input type="text" name="cliente_nome"  id="cliente_nome" class="form-control" placeholder="Informe seu nome completo" required>
+                        </div>                                        
+                        <div class="form-group">
+                            <label for="cliente_cpf">CPF</label> 
+                            <input type="text" data-mask="cpf" name="cliente_cpf"  id="cliente_cpf" class="form-control" placeholder="Informe o número do documento">
+                        </div>
+                        <br/>
+                        <div class="header">							
+                            <h4 class="text-uppercase">Contato</h4>
+                            <hr />
+                        </div>
+                        <div class="form-group">
+                            <label for="cliente_fone">Fone Fixo</label> 
+                            <input type="text" data-mask="phone" placeholder="(99) 9999-9999"  name="cliente_fone"  id="cliente_fone" class="form-control">
+                        </div>                                      
+                        <div class="form-group">
+                            <label for="cliente_fone2">Celular</label> 
+                            <input type="text" data-mask="cell" placeholder="(99) 99999-9999"  name="cliente_fone2"  id="cliente_fone2" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="cliente_fone3">Fone Personalizado</label> 
+                            <input type="text" placeholder="(99) 999-999-999 (WhatsApp)"  name="cliente_fone3"  id="cliente_fone3" class="form-control">
+                        </div>   
+                        <div class="form-group">
+                            <label for="cliente_email">Email</label> 
+                            <input type="email" name="cliente_email" id="cliente_email" class="form-control" placeholder="informe um email válido"  required>
+                        </div>                                             
+                        <div class="form-group">
+                            <label for="cliente_senha">Senha</label> 
+                            <input type="password" name="cliente_senha" id="cliente_senha" class="form-control" placeholder="informe uma senha"  required>
+                        </div>   
+
+                        <p class="text-center hidden-xs">
+                            <button class="btn btn-success btn-lg" type="submit"><i class="fa fa-check-circle-o"></i> Cadastrar-se</button>
+                        </p>
+
+                        <div class="form-group visible-xs">
+                            <button class="btn btn-success btn-block btn-lg" type="submit"><i class="fa fa-check-circle-o"></i> Cadastrar-se</button>
+                        </div>
+
+                    </form>
+                </div>
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br><br><br>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/assets/vendor/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/assets/vendor/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/assets/vendor/jquery.maskedinput/jquery.maskedinput.js" ></script>
+    <script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/assets/vendor/jquery.gritter/js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/view/site/app-js/main.js"></script>
+    <script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/view/site/app-js/cliente.js"></script>
+</html>

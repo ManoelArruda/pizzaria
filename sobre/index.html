@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pizzaria PHP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="application-name" content="" />        
+        <meta name="description" content="" />
+        <meta name="keywords" content="" /> 
+        <link rel="stylesheet" href="http://aplicacao.space/teste/pizzaria/assets/vendor/bootstrap/3.3.5/css/bootstrap.css"/>
+        <link rel="stylesheet" href="http://aplicacao.space/teste/pizzaria/assets/vendor/fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>        
+        <![endif]-->
+        <!--[if lt IE 9]>
+                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="http://aplicacao.space/teste/pizzaria/assets/css/style.css"/>       
+    </head>
+    <body>
+        <div class="topo" id="topo">
+    <div class="container">
+        <div class="row">
+            <p class="text-white">
+                <br class="hidden-xs">
+                <span class="pull-right">
+                    <i class="fa fa-phone"></i>
+                    (11) 0000-0000 &nbsp;
+                    (11) 0000-0000 &nbsp;
+                </span>
+            </p>            
+            <div class="col-md-3 col-sm-3 col-xs-5">
+                <a href="http://aplicacao.space/teste/pizzaria/">
+                    <img src="http://aplicacao.space/teste/pizzaria/midias/logo/logo-png_1508249640.png" class="img-responsive margin-full-20" alt="logo"/>
+                </a>
+            </div>
+            <div class="col-md-9 col-sm-9 col-xs-4 pull-right hidden-xs">
+                <div class="row">
+    <div class="col-md-2 col-sm-2 text-center hidden-xs margin-full-30">
+        <a class="text-white" href="http://aplicacao.space/teste/pizzaria/">
+            <i class="fa fa-home fa-3x"></i><br/>                        
+            Home
+        </a>
+    </div>
+        <div class="col-md-2 col-sm-2 text-center hidden-xs margin-full-30">
+        <a class="text-white" href="http://aplicacao.space/teste/pizzaria/sobre/">
+            <i class="fa fa-get-pocket fa-3x"></i><br/>
+            Sobre 
+        </a>  
+    </div>     
+            <div class="col-md-2 col-sm-2 text-center hidden-xs margin-full-30">
+            <a class="text-white" href="http://aplicacao.space/teste/pizzaria/cadastro/">
+                <i class="fa fa-user fa-3x"></i><br/>
+                Cadastro
+            </a>        
+        </div>                          
+        <div class="col-md-2 col-sm-2 hidden-xs pull-right margin-full-30">
+                    <a  class="text-white" href="http://aplicacao.space/teste/pizzaria/entrar/">
+                <i class="fa fa-sign-in fa-3x"></i><br/> 
+                <span class="topsmall">Entrar</span>
+            </a>                           
+
+            </div>   
+</div>            </div>
+            <div class="col-md-7 col-sm-7 col-xs-7 visible-xs">
+                <div class="navbar navbar-inverse" style="background-color: #bc2026; border-color: #bc2026;padding-top: 20px;">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle text-white menu-canvas" style="" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas"><i class="fa fa-shopping-cart fa-2x text-white"></i> <span id="cart-count"></span></button>        
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="fa fa-bars fa-2x text-white"></span>
+        </button>
+    </div>
+</div>
+
+            </div>
+            <div class="col-md-12 col-xs-12 visible-xs">
+                <div class="visible-xs menu-houve col-xs-12 col-md-12 col-sm-12">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav" id="menu-top">
+            <li class="dropdown">
+                <a class="text-white text-uppercase" href="http://aplicacao.space/teste/pizzaria/">
+                    <i class="fa fa-home"></i>
+                    Home
+                </a>                          
+            </li>
+            
+            <li class="dropdown">
+                <a class="text-white text-uppercase" href="http://aplicacao.space/teste/pizzaria/sobre/">
+                    <i class="fa fa-get-pocket"></i>
+                    Sobre 
+                </a>                          
+            </li>
+            <li class="dropdown">
+                <a class="text-white text-uppercase" href="http://aplicacao.space/teste/pizzaria/cadastro/">
+                    <i class="fa fa-user"></i>
+                    Cadastro 
+                </a>                          
+            </li>
+            <li role="separator" class="divider"></li>
+
+                        
+                <li class="dropdown">
+                    <a  class="text-white text-uppercase" href="http://aplicacao.space/teste/pizzaria/entrar/">
+                        <i class="fa fa-sign-in"></i>
+                        Entrar 
+                    </a>                           
+                </li>
+                        
+        </ul>
+    </div>
+</div>                            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="container">
+            &nbsp;
+            <span class="text-white">Pizzaria PHP </span>
+            &nbsp;
+                    </div>
+    </div>
+</div>
+        <div class="tamh">
+            <br/>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-xs-12">
+                        <br/>
+                        <div><div><div style="text-align: justify;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><font color="#ffffff" face="Arial" style="background-color: inherit;"></font></div></div></div>                        <br/>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div id="side-carrinho">
+                            <div class="col-md-12 col-xs-10 col-xs-offset-1" style="padding: 0px;">
+    <div class="row">
+        <div class="panel panel-default" id="painel-carrinho" >
+            <div class="panel-heading panel-heading-red">
+                <h3 class="text-center">
+                    <span class="text-write">
+                        <i class="fa fa-shopping-cart fa-1x"></i>
+                        &nbsp;Seu Carrinho <br>
+                        <small>Pizzaria PHP </small>
+                    </span>
+                </h3>
+            </div>
+                            <div class="panel-body text-center">
+                    <img src="http://aplicacao.space/teste/pizzaria/midias/thumb.php?zcx=3&w=218&h=178&src=img/icon-triste.png" alt="..."  class="img-thumbnail img-responsive no-border" >
+                    <h4><b>Carrinho Vazio</b></h4>
+                    Que tal encontrar algo gostoso <br/>pra comer?
+                </div>
+                    </div>       
+        <button class="btn btn-xs btn-block btn-warning scroll-to-up hidden-xs"><i class="fa fa-chevron-up"></i> Ir para o topo</button>
+        <br><br><br>
+    </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>var baseUrl = 'http://aplicacao.space/teste/pizzaria';</script>
+<script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/assets/vendor/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/assets/vendor/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/view/site/app-js/main.js"></script>        <script type="text/javascript" src="http://aplicacao.space/teste/pizzaria/view/site/app-js/carrinho.js"></script>
+    </body>
+</html>
